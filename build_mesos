@@ -361,8 +361,8 @@ function deb_ {
                -d zlib1g-dev
                -d iputils-ping
                -d libapr1-dev
-               -d libssl1.1
                -d libcurl4-nss-dev
+               -d libssl-dev
                --after-install "$this/$asset_dir/mesos.postinst"
                --after-remove "$this/$asset_dir/mesos.postrm" )
   pkgname="pkg"
